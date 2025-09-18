@@ -1,0 +1,8 @@
+cd ~/new_project
+
+git init
+git add .
+git commit -m "Initial commit: ASL Recognition on Raspberry Pi"
+git branch -M main
+git remote add origin https://github.com/YOUR-USERNAME/asl-sign-language-pi.git
+git push -u origin main
