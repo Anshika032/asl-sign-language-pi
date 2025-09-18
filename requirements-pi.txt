@@ -1,4 +1,26 @@
-tflite-runtime
-numpy
-opencv-python
-gtts
+# 🤟 ASL Recognition on Raspberry Pi
+
+This project demonstrates **real-time American Sign Language (ASL) recognition** using a CNN model deployed on a **Raspberry Pi 5**. The model is converted to **TensorFlow Lite** for fast edge inference.  
+
+The system captures video, recognizes ASL hand gestures, maps them to text, builds words, and converts them into speech using **gTTS**.
+
+---
+
+## ✨ Features
+- Real-time ASL alphabet recognition (A–Z)  
+- Word building with **SPACE** and **DEL**  
+- Speech output with **gTTS + mpg123**  
+- Runs fully on Raspberry Pi  
+
+---
+
+## 🚀 Usage
+```bash
+# Activate venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements-pi.txt
+
+# Run the demo
+python3 finalfinal.py
